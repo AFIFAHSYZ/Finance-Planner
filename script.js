@@ -34,7 +34,7 @@ function addTransactionToDOM(trx) {
   const li = document.createElement('li');
   li.classList.add(trx.type);
   li.innerHTML = `
-    ${trx.desc}: $${trx.amount.toFixed(2)}
+    ${trx.desc}: RM ${trx.amount.toFixed(2)}
     <button>Delete</button>
   `;
 
